@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgPersonagem"
+            android:src="@drawable/sona"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sona, a mestra das cordas"
+            android:id="@+id/txtNomePersonagem"
+            android:layout_gravity="right|top" />
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="420"
+            android:id="@+id/txtprecorp"
+            android:layout_gravity="right|bottom"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgIPicone"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/ipicone"/>
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="28dp"
+            android:text="4600"
+            android:id="@+id/txtprecoip"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/rpicone"/>
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Habilidades"
+            android:id="@+id/tHabilidades"
+            android:layout_gravity="center"
+            android:textColor="#482c2c"
+            android:editable="false"
+            android:gravity="center"
+            android:background="#2b927f85" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagempPersonagem"
+                android:layout_column="2"
+                android:src="@drawable/p_sona"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagemqPersonagem"
+                android:layout_column="5"
+                android:src="@drawable/q_sona"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagemwPersonagem"
+                android:layout_column="6"
+                android:src="@drawable/w_sona"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagemePersonagem"
+                android:layout_column="7"
+                android:src="@drawable/e_sona"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagemrPersonagem"
+                android:layout_column="8"
+                android:src="@drawable/r_sona"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="História"
+        android:id="@+id/txtHistoria"
+
+        android:gravity="center_horizontal"
+        android:background="#26cdc1c5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Praesent non pretium mauris, eu maximus mauris. Donec a faucibus enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        android:id="@+id/historiaPersonagem"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bom contra:"
+        android:id="@+id/txtBomContra"
+        android:layout_gravity="center_horizontal"
+        android:background="#39cdc1c5"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fulano1, Fulano2, Fulano 3"
+        android:id="@+id/txtCounters"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Skins:"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="#37cdc1c5" />
+
+</LinearLayout>
