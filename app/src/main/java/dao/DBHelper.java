@@ -4851,7 +4851,1226 @@ public class DBHelper extends SQLiteOpenHelper {
             sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
             db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
             Log.i("tcc", "Inseriu a skin Lee Sin Nocaute");
- /* ************************************************************************************************************************************************************ */
+
+/* ********************************LEONA************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Leona Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Leona Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Leona Valquíria");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Leona Valquíria");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Leona Paladina");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Leona Paladina");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Leona Solari de Ferro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Leona Solari de Ferro");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Leona Curtindo o Verão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Leona Curtindo o Verão");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "PROJETO: Leona");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.leonas6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin PROJETO: Leona");
+
+/* ********************************LISSANDRA************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lissandra Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lissandras1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lissandra Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lissandra Hematita");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lissandras2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lissandra Hematita");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lissandra Donzela de Ferro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lissandras3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lissandra Donzela de Ferro");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lissandra Cibernética");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lissandras4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lissandra Cibernética");
+
+/* ********************************LUCIAN************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lucian Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lucians1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lucian Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lucian Mercenário");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lucians2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lucian Mercenário");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lucian Atacante");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lucians3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lucian Atacante");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "PROJETO: Lucian");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lucians4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin PROJETO: Lucian");
+
+/* ********************************LULU************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Doceira Macabra");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Doceira Macabra");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Perversa");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Perversa");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Treinadora de Dragões");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Treinadora de Dragões");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Inverno Mágico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Inverno Mágico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lulu Curtindo o Verão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.lulus6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lulu Curtindo o Verão");
+
+ /* ********************************LUX************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Feiticeira");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Feiticeira");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Ladra Arcana");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Ladra Arcana");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Patrulheira Lux");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Patrulheira Lux");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Imperial(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Imperial");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Legionária de Aço");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Legionária de Aço");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lux Guardiã Estelar");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.luxs7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lux Guardiã Estelar");
+
+/* ********************************MALPHITE************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite Irlandês(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite Irlandês");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite Recife de Coral(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite Recife de Coral");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite de Mármore(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite de Mármore");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite de Obsidiana");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite de Obsidiana");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite Glacial");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite Glacial");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mech Malphite");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mech Malphite");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malphite Barca de Ferro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malphites8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malphite Barca de Ferro");
+
+/* ********************************MALZAHAR************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Vizir(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Vizir");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Príncipe das Sombras");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Príncipe das Sombras");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Gênio da Lâmpada");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Gênio da Lâmpada");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Suserano");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Suserano");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Malzahar Dia Nevado(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.malzahars6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Malzahar Dia Nevado");
+
+/* ********************************MAOKAI************************************************************************************************************************** */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai de Carvão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai de Carvão");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai Xamanista");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai Xamanista");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai Natalino(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai Natalino");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai Assombradoo(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai Assombrado");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Maokai Goleiro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Maokai Goleiro");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miaukai");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.maokais7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miaukai");
+
+/* ********************************MASTER YI************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Master Yi Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Master Yi Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Master Yi Assassino");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 390);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Master Yi Assassino");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Master Yi, o Escolhido");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Master Yi, o Escolhido");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Master Yi de Ionia");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Master Yi de Ionia");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Samurai Yi");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Samurai Yi");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Master Yi Caçador de Cabeças");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Master Yi Caçador de Cabeças");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "PROJETO: Yi");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.masteryis7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin PROJETO: Yi");
+
+/* ********************************MISS FORTUNE************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Vaqueira");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Vaqueira");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune de Waterloo");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune de Waterloo");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Agente Secreta");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Agente Secreta");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Natalina(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Natalina");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Guerreira das Estradas(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Guerreira das Estradas");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Mafiosa");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Mafiosa");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Miss Fortune Fliperama");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Miss Fortune Fliperama");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Capitã Fortune");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.missfortunes9);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Capitã Fortune");
+
+/* ********************************MORDEKAISER************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mordekaiser Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mordekaiser Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mordekaiser Dracônico(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mordekaiser Dracônico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mordekaiser Infernal");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mordekaiser Infernal");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mordekaiser Pentakill");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mordekaiser Pentakill");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Lorde Mordekaiser");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Lorde Mordekaiser");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mordekaiser Rei de Paus");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.mordekaisers6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mordekaiser Rei de Paus");
+
+ /* ********************************MORGANA************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Exilada(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Exilada");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Pesadelo Culinário");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Pesadelo Culinário");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Mestra das Lâminas");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Mestra das Lâminas");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Espinhos Negros");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Espinhos Negros");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Noiva Fantasma");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Noiva Fantasma");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Vitoriosa(Indisponivel");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Vitoriosa");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Morgana Espectro Lunar(Indisponivel");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.morganas8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Morgana Espectro Lunar");
+
+ /* ********************************NAMI************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nami Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.namis1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nami Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nami Koi");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.namis2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nami Koi");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nami Iara");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.namis3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nami Iara");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nami, a Sereia-Boi");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.namis4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nami, a Sereia-Boi");
+
+/* ********************************NASUS************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Galáctico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Galáctico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Faraônico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Faraônico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Cavaleiro do Terror");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Cavaleiro do Terror");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riot Nasus K-9(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riot Nasus K-9");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Infernal");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Infernal");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nasus Arquiduque");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nasuss7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nasus Arquiduque");
+
+/* ********************************NAUTILUS************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nautilus Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nautiluss1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nautilus Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nautilus Abissal");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nautiluss2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nautilus Abissal");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nautilus Subterrâneo");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nautiluss3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nautilus Subterrâneo");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "AstroNautilus");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nautiluss4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin AstroNautilus");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nautilus Vigia");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nautiluss5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nautilus Vigia");
+
+/* ********************************NIDALEE************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Nevada(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Nevada");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Leopardo(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Leopardo");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Camareira Francesa");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Camareira Francesa");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Faraônica");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Faraônica");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Feiticeira(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Feiticeira");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Caçadora de Cabeças");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Caçadora de Cabeças");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Reinos Combatentes");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Reinos Combatentes");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nidalee Desafiante(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nidalees8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nidalee Desafiante");
+
+/* ********************************NOCTURNE************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne Terror Congelante");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne Terror Congelante");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne do Vazio(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne do Vazio");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne Devastador");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne Devastador");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne Assombroso(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne Assombroso");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nocturne Eternum");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nocturnes6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nocturne Eternum");
+
+/* ********************************NUNU************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Pé-Grande(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Pé-Grande");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Elfo Natalino(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Elfo Natalino");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Bicho-Papão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Bicho-Papão");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Robótico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Robótico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Demolidor");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Demolidor");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "TPA Nunu(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin TPA Nunu");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Nunu Zumbi(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.nunus8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Nunu Zumbi");
+
+/* ********************************OLAF************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Olaf Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Olaf Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Olaf Esquecido");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Olaf Esquecido");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Olaf Glacial(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Olaf Glacial");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Brolaf");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Brolaf");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Olaf Pentakill");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Olaf Pentakill");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Olaf Saqueador");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.olafs6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Olaf Saqueador");
+
+/* ********************************ORIANNA************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Gótica");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Gótica");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Fantoche Macabro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Fantoche Macabro");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Artesã das Lâminas");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Artesã das Lâminas");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "TPA Orianna(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin TPA Orianna");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Inverno Mágico(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Inverno Mágico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Orianna Cupido Mortal");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.oriannas7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Orianna Cupido Mortal");
+
+/* ********************************PANTHEON************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Mirmidão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Mirmidão");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Implacável(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Implacável");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Perseu(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Perseu");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Blindado");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Blindado");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Gladiador");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Gladiador");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Caçador de Dragões");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Caçador de Dragões");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Pantheon Caça-Zumbis(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.pantheons8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Pantheon Caça-Zumbis");
+
+/* ********************************POPPY************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy de Noxus(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy de Noxus");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppirulito(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppirulito");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy Ferreira(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy Ferreira");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy Boneca de Pano(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy Boneca de Pano");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy Guerreira Real");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy Guerreira Real");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Poppy Martelo Escarlate");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.poppys7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Poppy Martelo Escarlate");
+
+/* ********************************QUINN************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Quinn Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.quinns1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Quinn Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Quinn Fênix");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.quinns2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Quinn Fênix");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Quinn Exploradora Bretã");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.quinns3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Quinn Exploradora Bretã");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Quinn Corsária");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.quinns4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Quinn Corsária");
+
+/* ********************************RAMMUS************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Rei(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Rei");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Cromo");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Cromo");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus de Lava(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus de Lava");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus de Freljord");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus de Freljord");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Ninja");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Ninja");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Blindado");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Blindado");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rammus Guardião das Areias");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rammuss8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rammus Guardião das Areias");
+
+/* ********************************REK'SAI************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rek'Sai Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.reksais1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rek'Sai Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rek'Sai Eternum");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.reksais2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rek'Sai Eternum");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rek'Sai Curtindo o Verão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.reksais3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rek'Sai Curtindo o Verão");
+
+/* ********************************RENEKTON************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Galáctico(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Galáctico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Australiano");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Australiano");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Fúria Sanguinária");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Fúria Sanguinária");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton das Guerras Rúnicas");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton das Guerras Rúnicas");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Terra Abrasada");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Terra Abrasada");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Curtindo o Verão");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Curtindo o Verão");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Renekton Pré-histórico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.renektons8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Renekton Pré-histórico");
+
+/* ********************************RENGAR************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rengar Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rengars1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rengar Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rengar Caçador de Cabeças");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rengars2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rengar Caçador de Cabeças");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rengar Caçador Noturno");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rengars3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rengar Caçador Noturno");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rengar SSW");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rengars4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rengar SSW");
+
+/* ********************************RIVEN************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Redimida");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Redimida");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Elite Carmesim");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Elite Carmesim");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Coelhinha de Noxus");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Coelhinha de Noxus");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Campeonato");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Campeonato");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Espada Dracônica");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Espada Dracônica");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Riven Fliperama");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rivens7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1350);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Riven Fliperama");
+
+/* ********************************RUMBLE************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rumble Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rumbles1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rumble Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rumble de Férias");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rumbles2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rumble de Férias");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rumble Ratazana do Mar(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rumbles3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rumble Ratazana do Mar");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Rumble Supergalático");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.rumbles4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 1820);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Rumble Supergalático");
+
+/* ********************************RYZE************************************************************************************************************************* */
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Clássico");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes1);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Clássico");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Humano(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes2);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Humano");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Tribal(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes3);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Tribal");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Tio Ryze");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes4);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 520);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Tio Ryze");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Triunfante(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes5);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Triunfante");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Mestre Ryze(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes6);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Mestre Ryze");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Zumbi(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes7);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Zumbi");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Cristal Negro");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes8);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 975);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Cristal Negro");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Pirata(Indisponível)");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes9);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 0);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Pirata");
+
+            sknvalores.put(contract.Skins.COLUNA_NOMESKIN, "Ryze Barba Branca");
+            sknvalores.put(contract.Skins.COLUNA_IMAGEMSKIN, R.drawable.ryzes10);
+            sknvalores.put(contract.Skins.COLUNA_PRECO, 750);
+            db.insertOrThrow(contract.Skins.TABELA_NOME, null, sknvalores);
+            Log.i("tcc", "Inseriu a skin Ryze Barba Branca");
+/* ************************************************************************************************************************************************************ */
+
         String persqlcreate = "create table " + contract.Personagem.TABELA_NOME + " ("
                 + contract.Personagem.COLUNA_ID + " integer primary key,"
                 + contract.Personagem.COLUNA_NOME + " text,"
