@@ -26,6 +26,7 @@ public class contract {
         public static final String COLUNA_IMAGEM = "imagem";
         public static final String COLUNA_NOMESKIN = "nomeskin";
         public static final String COLUNA_NOMEPASSIVA = "nomepassiva";
+        public static final String COLUNA_CATEGORIA = "categoria";
 
     }
 

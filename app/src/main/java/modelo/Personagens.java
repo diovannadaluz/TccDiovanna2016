@@ -9,6 +9,7 @@ public class Personagens {
     private String lore;
     private int precoip;
     private int precorp;
+    private String categoria;
     private Integer imagem;
     private String counterum;
     private String counterdois;
@@ -84,5 +85,13 @@ public class Personagens {
 
     public void set_idpersonagem(Integer _idpersonagem) {
         this._idpersonagem = _idpersonagem;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 }
