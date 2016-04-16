@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -10,112 +10,56 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:angle="90"
     tools:context="com.example.aluno.tccdiovanna.MainActivity"
-    android:weightSum="1">
-    <GridLayout
+    android:weightSum="1"
+    android:background="#212f48">
+
+    <ImageView
+        android:layout_width="394dp"
+        android:layout_height="550dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="left|top"
+        android:src="@drawable/inicial" />
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="ITENS"
+        android:id="@+id/btnItens"
+        android:layout_gravity="left|bottom" />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="NOTÍCIAS"
+        android:id="@+id/btnNoticias"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <Button
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="GUIAS"
+        android:id="@+id/btnGuias"
+        android:layout_gravity="right|bottom" />
+
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="513dp">
+        android:layout_height="wrap_content"
+        android:text="Personagem"
+        android:id="@+id/btnPersonagem"
+        android:layout_gravity="left|top"
+        android:onClick="personagensgrid" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="334dp"
-            android:layout_height="169dp"
-            android:layout_row="0"
-            android:layout_column="1">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTATÍSTICAS"
+        android:id="@+id/btnEstatisticas"
+        android:layout_gravity="center_horizontal|top" />
 
-            <ImageView
-                android:layout_width="354dp"
-                android:layout_height="match_parent"
-                android:id="@+id/imvlogo"
-                android:src="@drawable/logo"/>
-        </LinearLayout>
-
-        <TableLayout
-            android:layout_width="376dp"
-            android:layout_height="439dp"
-            android:layout_row="9"
-            android:layout_column="1">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layoutDirection="inherit"
-                android:layout_marginLeft="20dp">
-
-                <ImageButton
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/BtnPersonagens"
-                    android:src="@drawable/personagensicn"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"
-                    android:onClick="personagensgrid"/>
-                <ImageButton
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/BtnItens"
-                    android:src="@drawable/itensbtn"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp">
-
-                <ImageButton
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imgBtnTalentos"
-                    android:layout_column="0"
-                    android:src="@drawable/talentosicn"
-                    android:clickable="true"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"/>
-
-                <ImageButton
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imgBtnGuias"
-                    android:layout_column="1"
-                    android:src="@drawable/guiasbtn"
-                    android:clickable="true"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp">
-
-                <ImageButton
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imgBtnNoticias"
-                    android:layout_column="0"
-                    android:clickable="true"
-                    android:src="@drawable/noticiasbtn"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"/>
-
-                <ImageButton
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imgBtnEstatisticas"
-                    android:layout_column="1"
-                    android:src="@drawable/estatisticasbtn"
-                    android:clickable="true"
-                    android:layout_centerHorizontal="true" android:adjustViewBounds="true" android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    android:background="#ffffff"
-                    />
-            </TableRow>
-        </TableLayout>
-    </GridLayout>
-</LinearLayout>
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="TALENTOS"
+        android:id="@+id/btnTalentos"
+        android:layout_gravity="right|top" />
+</FrameLayout>

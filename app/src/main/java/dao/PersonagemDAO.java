@@ -1,6 +1,7 @@
 package dao;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 
@@ -45,6 +46,20 @@ public class PersonagemDAO {
         database = myHelper.getWritableDatabase(); //devolve uma conexão para o banco de dados
     }
 
+    public Cursor getLista() {
+        //retorna o Cursor para os registros contidos no banco de dados
+        return database.rawQuery("SELECT NOME,IMAGEM FROM " + contract.Personagem.TABELA_NOME, null);
+    }
+
+    /**
+     *  Método para obter a lista de Personagems, baseado no criterio "nome"
+     * @param nome
+     * @return
+     */
+    public Cursor getListaByNome(String nome) {
+        //retorna o Cursor para os registros contidos no banco de dados baseado no criterio "nome"
+        return database.rawQuery("SELECT  * FROM " + contract.Personagem.TABELA_NOME + " WHERE nome LIKE '" + nome + "%'", null);
+    }
     /**
      * Método responsável por liberar a conexão com o banco de dados.
      */
